@@ -1,0 +1,41 @@
+body{
+    background-color: grey;
+    color: white;
+}
+header{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: grey;
+    border-radius: 10px;    
+}
+.trombi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+figcaption{
+    text-align: center;
+    margin-top: 5px;;
+}
+.apprenant{
+    width: 15%;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0 ;
+}
+.apprenant img{
+    width: 100%;
+    border-radius: 10px;
+    filter: grayscale();
+}
+.apprenant img:hover{
+    filter: none;
+    transform: rotate(360000deg);
+    transition: 3s;
+    border-radius: 50%;
+}
